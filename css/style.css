@@ -776,6 +776,11 @@ hr{
 
 /* Portfolio Section
 --------------------------------*/
+.nabin-projects{
+width: 360px;
+height: 300px;
+}
+
 
 #portfolio {
   padding: 60px 0;
