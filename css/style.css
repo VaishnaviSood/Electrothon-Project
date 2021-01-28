@@ -16,6 +16,11 @@
   font-weight: 1000;
 }
 
+.vaishnavi1{
+  width: 250px;
+  height: 300px;
+}
+
 .ayush5:hover{
   padding: 10px;
   transition: all 0.2s ease-in;
