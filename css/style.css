@@ -8,6 +8,7 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 .ayush3{
   cursor: pointer;
   color: #0a98c0;
@@ -15,6 +16,12 @@
   font-weight: 1000;
 }
 
+.ayush5:hover{
+  padding: 10px;
+  transition: all 0.2s ease-in;
+  border-radius: 10%;
+ 
+}
 body {
   background: rgb(22, 22, 22);
   color: #444;
