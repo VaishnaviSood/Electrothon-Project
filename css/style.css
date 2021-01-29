@@ -292,6 +292,7 @@ hr{
   border-radius: 20px;
 }
 
+
 /*--------------------------------------------------------------
 # Navigation Menu
 --------------------------------------------------------------*/
@@ -789,7 +790,7 @@ hr{
 /* Portfolio Section
 --------------------------------*/
 .nabin-projects{
-width: 360px;
+width: 385px;
 height: 300px;
 }
 
@@ -832,12 +833,21 @@ height: 300px;
   position: relative;
   overflow: hidden;
   margin-bottom: 30px;
+  padding-bottom: 24px;
 }
 
 #portfolio .portfolio-item .portfolio-wrap {
   overflow: hidden;
   position: relative;
   margin: 0;
+  border-radius: 15px;
+  border: 2px solid white;
+  
+}
+#portfolio .portfolio-item .portfolio-wrap:hover {
+
+  border: 2px solid cyan;
+  
 }
 
 #portfolio .portfolio-item .portfolio-wrap:hover img {
@@ -929,10 +939,20 @@ height: 300px;
 
 #portfolio .portfolio-item .portfolio-wrap:hover {
   background: #282646;
+  margin: 10px 0px 0px 0px;
+  border-radius: 20px;
+  transform: scale(1.01);
+  transition: all 0.2s ease-in;
+  
 }
 
 #portfolio .portfolio-item .portfolio-wrap:hover .portfolio-info {
   opacity: 1;
+}
+
+#portfolio .portfolio-item .portfolio-wrap .portfolio-info:hover{
+padding-bottom: 20px;
+padding-top: 20px;
 }
 
 /* Testimonials Section
